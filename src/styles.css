@@ -1,0 +1,68 @@
+.body {
+    width: 1440px;
+    margin: 0px auto;
+    background-color: var(--neutral-Very-Dark-Blue-color);
+}
+
+.card {
+    width: 30em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--neutral-Dark-Blue-color);
+    margin: 0 auto;
+    margin-top: 15em;
+    border-radius: 2.5em;
+}
+
+.star {
+    margin-left: 3em;
+}
+
+.title {
+    color: var(--neutral-white-color);
+    font-size: 30px;
+    font-family: "Overpass", sans-serif;
+    margin-left: 1em;
+}
+
+.paragraph {
+    color: var(--neutral-Light-Grey-color);
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    margin-left: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    gap: 20px;
+}
+
+.btn {
+    width: 3.5em;
+    height: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: solid 1px;
+    border-color: var(--neutral-Light-Grey-color);
+    font-family: "Overpass", sans-serif;
+    color: var(--neutral-Light-Grey-color);
+    background-color: var(--neutral-Medium-Grey-color);
+}
+
+.submit {
+    width: 30em;
+    height: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--primary-orange-color);
+    color: var(--neutral-white-color);
+    font-family: "Overpass", sans-serif;
+}
