@@ -50,11 +50,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     margin-left: -1em;
 }
 
-.btn {
+.circle {
     font-family: "Overpass", sans-serif;
     width: 3.2em;
     height: 3.2em;
@@ -69,7 +69,7 @@
     cursor: pointer;
 }
 
-.submit {
+#btn {
     width: 25em;
     height: 3em;
     background-color: var(--primary-orange-color);
@@ -89,11 +89,11 @@
     cursor: pointer;
 }
 
-.btn:hover {
+.circle:hover {
     background-color: var(--primary-orange-color);
 }
 
-.submit:hover {
+.btn:hover {
     background-color: #e04d01;
     color: black;
     font-weight: bold;
