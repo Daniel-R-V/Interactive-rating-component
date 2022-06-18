@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet" />
+    </head>
+    <body class="body">
+        <main>
+            <section class="card">
+                <div class="evaluation">
+                    <div>
+                        <img class="star" src="../images/icon-star.svg" alt="star" />
+                    </div>
+                    <h6 class="title">How did we do?</h6>
+                    <p class="paragraph">
+                        Please let us know we did with your support <br />
+                        request. All feedback is apreciated to help us <br />
+                        improve our offering!
+                    </p>
+                    <div class="container">
+                        <div class="circle">
+                            <input type="radio" id="1" name="rad" value="1" />
+                            <label for="1">1</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="2" name="rad" value="2" />
+                            <label for="2">2</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="3" name="rad" value="3" />
+                            <label for="3">3</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="4" name="rad" value="4" />
+                            <label for="4">4</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="5" name="rad" value="5" />
+                            <label for="5">5</label>
+                        </div>
+                        <button type="submit" id="btn">SUBMIT</button>
+                    </div>
+                </div>
+
+                <div class="thankyou">
+                    <img class="thanks-image" src="../images/illustration-thank-you.svg" alt="thank you" />
+
+                    <div>
+                        <span class="rated">You selected <span id="rated"></span> out of 5</span>
+                    </div>
+
+                    <h1 class="heading">Thank you!</h1>
+                    <p class="second-paragraph">
+                        We appreciate you taking the time to give a rating. <br />
+                        If you ever need more support, don't hesitate to get in touch!
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src="./layout.js"></script>
+    </body>
+</html>
