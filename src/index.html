@@ -17,38 +17,50 @@
     <body class="body">
         <main>
             <section class="card">
-                <div>
-                    <img class="star" src="../images/icon-star.svg" alt="star" />
+                <div class="evaluation">
+                    <div>
+                        <img class="star" src="../images/icon-star.svg" alt="star" />
+                    </div>
+                    <h6 class="title">How did we do?</h6>
+                    <p class="paragraph">
+                        Please let us know we did with your support <br />
+                        request. All feedback is apreciated to help us <br />
+                        improve our offering!
+                    </p>
+                    <div class="container">
+                        <div class="circle">
+                            <input type="radio" id="1" name="rad" value="1" />
+                            <label for="1">1</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="2" name="rad" value="2" />
+                            <label for="2">2</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="3" name="rad" value="3" />
+                            <label for="3">3</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="4" name="rad" value="4" />
+                            <label for="4">4</label>
+                        </div>
+                        <div class="circle">
+                            <input type="radio" id="5" name="rad" value="5" />
+                            <label for="5">5</label>
+                        </div>
+                        <button type="submit" id="btn">SUBMIT</button>
+                    </div>
                 </div>
-                <h6 class="title">How did we do?</h6>
-                <p class="paragraph">
-                    Please let us know we did with your support <br />
-                    request. All feedback is apreciated to help us <br />
-                    improve our offering!
-                </p>
-                <div class="container">
-                    <div class="circle">
-                        <input type="radio" id="1" name="1" value="1" />
-                        <label for="1"></label>
-                    </div>
-                    <div class="circle">
-                        <input type="radio" id="2" name="2" value="2" />
-                        <label for="2"></label>
-                    </div>
-                    <div class="circle">
-                        <input type="radio" id="3" name="3" value="3" />
-                        <label for="3"></label>
-                    </div>
-                    <div class="circle">
-                        <input type="radio" id="4" name="4" value="4" />
-                        <label for="4"></label>
-                    </div>
-                    <div class="circle">
-                        <input type="radio" id="5" name="5" value="5" />
-                        <label for="5"></label>
+
+                <div class="thankyou">
+                    <img src="../images/illustration-thank-you.svg" alt="thank you" />
+
+                    <div>
+                        <span class="rated">You selected <span id="rated"></span> out of 5</span>
                     </div>
 
-                    <button type="submit" id="btn">SUBMIT</button>
+                    <h1 class="heading">Thank you!</h1>
+                    <p class="second-paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don´t hesitate to get in touch!</p>
                 </div>
             </section>
         </main>
