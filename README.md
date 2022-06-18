@@ -8,19 +8,21 @@
 
 🛠 **Created with HTML + CSS + JS**
 
-First image
+
+
+1️⃣ First image
 
 ![Result 1](design/result1.JPG)
 
 
 
-Second
+2️⃣ Second
 
 ![Result 2](design/result2.jpg)
 
 
 
-And the last one!
+ ✔ And the last one!
 
 
 ![Last Image](design/result3.jpg)
